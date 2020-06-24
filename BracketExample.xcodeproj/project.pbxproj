@@ -7,25 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		852B79972499380C00FB1648 /* ConnectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852B79962499380C00FB1648 /* ConnectorView.swift */; };
 		859437C3247D6A9F0029290F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859437C2247D6A9F0029290F /* AppDelegate.swift */; };
-		859437C5247D6A9F0029290F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859437C4247D6A9F0029290F /* ViewController.swift */; };
+		859437C5247D6A9F0029290F /* BracketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859437C4247D6A9F0029290F /* BracketViewController.swift */; };
 		859437C8247D6A9F0029290F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859437C6247D6A9F0029290F /* Main.storyboard */; };
 		859437CA247D6AA10029290F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859437C9247D6AA10029290F /* Assets.xcassets */; };
 		859437CD247D6AA10029290F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859437CB247D6AA10029290F /* LaunchScreen.storyboard */; };
+		859437D5247D6D2F0029290F /* Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859437D4247D6D2F0029290F /* Teams.swift */; };
+		859437D7247D6D420029290F /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859437D6247D6D420029290F /* Games.swift */; };
+		85A504C5249119A400BC250E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A504C4249119A400BC250E /* AppDelegate.swift */; };
+		85A504C7249119A400BC250E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A504C6249119A400BC250E /* SceneDelegate.swift */; };
+		85A504C9249119A400BC250E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A504C8249119A400BC250E /* ViewController.swift */; };
+		85A504CC249119A400BC250E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85A504CA249119A400BC250E /* Main.storyboard */; };
+		85A504D1249119A500BC250E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85A504CF249119A500BC250E /* LaunchScreen.storyboard */; };
+		85A504D6249119AF00BC250E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859437C9247D6AA10029290F /* Assets.xcassets */; };
+		85CEAE4B247D8E7D00C63DE7 /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CEAE4A247D8E7D00C63DE7 /* GameCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		852B79962499380C00FB1648 /* ConnectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectorView.swift; sourceTree = "<group>"; };
 		859437BF247D6A9F0029290F /* BracketExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BracketExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		859437C2247D6A9F0029290F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		859437C4247D6A9F0029290F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		859437C4247D6A9F0029290F /* BracketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BracketViewController.swift; sourceTree = "<group>"; };
 		859437C7247D6A9F0029290F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		859437C9247D6AA10029290F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		859437CC247D6AA10029290F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		859437CE247D6AA10029290F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		859437D4247D6D2F0029290F /* Teams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teams.swift; sourceTree = "<group>"; };
+		859437D6247D6D420029290F /* Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
+		85A504C2249119A400BC250E /* BracketExample-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BracketExample-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A504C4249119A400BC250E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85A504C6249119A400BC250E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		85A504C8249119A400BC250E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85A504CB249119A400BC250E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85A504CD249119A500BC250E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85A504D0249119A500BC250E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85A504D2249119A500BC250E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85CEAE4A247D8E7D00C63DE7 /* GameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		859437BC247D6A9F0029290F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85A504BF249119A400BC250E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				859437C1247D6A9F0029290F /* BracketExample */,
+				85A504C3249119A400BC250E /* BracketExample-ios */,
 				859437C0247D6A9F0029290F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				859437BF247D6A9F0029290F /* BracketExample.app */,
+				85A504C2249119A400BC250E /* BracketExample-ios.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,13 +86,31 @@
 			isa = PBXGroup;
 			children = (
 				859437C2247D6A9F0029290F /* AppDelegate.swift */,
-				859437C4247D6A9F0029290F /* ViewController.swift */,
+				859437C4247D6A9F0029290F /* BracketViewController.swift */,
+				852B79962499380C00FB1648 /* ConnectorView.swift */,
+				85CEAE4A247D8E7D00C63DE7 /* GameCell.swift */,
+				859437D4247D6D2F0029290F /* Teams.swift */,
+				859437D6247D6D420029290F /* Games.swift */,
 				859437C6247D6A9F0029290F /* Main.storyboard */,
 				859437C9247D6AA10029290F /* Assets.xcassets */,
 				859437CB247D6AA10029290F /* LaunchScreen.storyboard */,
 				859437CE247D6AA10029290F /* Info.plist */,
 			);
 			path = BracketExample;
+			sourceTree = "<group>";
+		};
+		85A504C3249119A400BC250E /* BracketExample-ios */ = {
+			isa = PBXGroup;
+			children = (
+				85A504C4249119A400BC250E /* AppDelegate.swift */,
+				85A504C6249119A400BC250E /* SceneDelegate.swift */,
+				85A504C8249119A400BC250E /* ViewController.swift */,
+				85A504CA249119A400BC250E /* Main.storyboard */,
+				85A504CD249119A500BC250E /* Assets.xcassets */,
+				85A504CF249119A500BC250E /* LaunchScreen.storyboard */,
+				85A504D2249119A500BC250E /* Info.plist */,
+			);
+			path = "BracketExample-ios";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,18 +133,38 @@
 			productReference = 859437BF247D6A9F0029290F /* BracketExample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		85A504C1249119A400BC250E /* BracketExample-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85A504D5249119A500BC250E /* Build configuration list for PBXNativeTarget "BracketExample-ios" */;
+			buildPhases = (
+				85A504BE249119A400BC250E /* Sources */,
+				85A504BF249119A400BC250E /* Frameworks */,
+				85A504C0249119A400BC250E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BracketExample-ios";
+			productName = "BracketExample-ios";
+			productReference = 85A504C2249119A400BC250E /* BracketExample-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		859437B7247D6A9F0029290F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1140;
+				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Kyle Watson";
 				TargetAttributes = {
 					859437BE247D6A9F0029290F = {
 						CreatedOnToolsVersion = 11.4.1;
+					};
+					85A504C1249119A400BC250E = {
+						CreatedOnToolsVersion = 11.5;
 					};
 				};
 			};
@@ -113,6 +182,7 @@
 			projectRoot = "";
 			targets = (
 				859437BE247D6A9F0029290F /* BracketExample */,
+				85A504C1249119A400BC250E /* BracketExample-ios */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +198,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		85A504C0249119A400BC250E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A504D1249119A500BC250E /* LaunchScreen.storyboard in Resources */,
+				85A504D6249119AF00BC250E /* Assets.xcassets in Resources */,
+				85A504CC249119A400BC250E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -135,8 +215,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				859437C5247D6A9F0029290F /* ViewController.swift in Sources */,
+				852B79972499380C00FB1648 /* ConnectorView.swift in Sources */,
+				859437D5247D6D2F0029290F /* Teams.swift in Sources */,
+				859437C5247D6A9F0029290F /* BracketViewController.swift in Sources */,
 				859437C3247D6A9F0029290F /* AppDelegate.swift in Sources */,
+				859437D7247D6D420029290F /* Games.swift in Sources */,
+				85CEAE4B247D8E7D00C63DE7 /* GameCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85A504BE249119A400BC250E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A504C9249119A400BC250E /* ViewController.swift in Sources */,
+				85A504C5249119A400BC250E /* AppDelegate.swift in Sources */,
+				85A504C7249119A400BC250E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +249,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				859437CC247D6AA10029290F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		85A504CA249119A400BC250E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85A504CB249119A400BC250E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85A504CF249119A500BC250E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85A504D0249119A500BC250E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -310,6 +420,44 @@
 			};
 			name = Release;
 		};
+		85A504D3249119A500BC250E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BracketExample-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kylewats.BracketExample-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85A504D4249119A500BC250E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BracketExample-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kylewats.BracketExample-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -327,6 +475,15 @@
 			buildConfigurations = (
 				859437D2247D6AA10029290F /* Debug */,
 				859437D3247D6AA10029290F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85A504D5249119A500BC250E /* Build configuration list for PBXNativeTarget "BracketExample-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A504D3249119A500BC250E /* Debug */,
+				85A504D4249119A500BC250E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

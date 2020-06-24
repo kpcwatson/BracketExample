@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  BracketExample
+//  BracketExample-ios
 //
-//  Created by Kyle Watson on 5/26/20.
+//  Created by Kyle Watson on 6/10/20.
 //  Copyright © 2020 Kyle Watson. All rights reserved.
 //
 
@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = UIColor(named: "blahcolor")
     }
 
 
