@@ -15,25 +15,9 @@ class ConnectorView: UICollectionReusableView {
     static let elementKind3 = "connector-kind-3"
     static let elementKind4 = "connector-kind-4"
 
-    let label = UILabel()
-
     override init(frame: CGRect) {
         super.init(frame: frame)
         backgroundColor = .orange
-
-        label.translatesAutoresizingMaskIntoConstraints = false
-        addSubview(label)
-        NSLayoutConstraint.activate([
-            label.leadingAnchor.constraint(equalTo: leadingAnchor),
-            label.topAnchor.constraint(equalTo: topAnchor),
-            label.trailingAnchor.constraint(equalTo: trailingAnchor),
-            label.bottomAnchor.constraint(equalTo: bottomAnchor),
-//            label.centerXAnchor.constraint(equalTo: centerXAnchor),
-//            label.centerYAnchor.constraint(equalTo: centerYAnchor),
-        ])
-        label.text = "-------------------"
-        label.font = UIFont.preferredFont(forTextStyle: .callout)
-        label.textColor = .black
     }
     
     required init?(coder: NSCoder) {
